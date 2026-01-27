@@ -1,0 +1,18 @@
+#Carpeta node_modules
+node_modules/
+
+#Si manejamos variables pues tambien:
+.env
+
+#Si manejamos logs del npm
+npm-debug.log*
+
+#Si manejamos archivos de mac
+.DS_Store
+
+#Si se maneja logs
+*.log
+
+#Si se maneja coverage no es necesario subir el reporte que se sube con el comando
+coverage/
+
