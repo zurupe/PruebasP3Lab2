@@ -1,3 +1,4 @@
+// Pablo Zurita
 function factorial(n) {
     if (n < 0) return undefined;
     if (n === 0 || n === 1) return 1;
@@ -21,4 +22,6 @@ function fibonacci(n) {
     return b;
 }
 
-module.exports = { factorial, fibonacci };
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { factorial, fibonacci };
+}
