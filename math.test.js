@@ -12,7 +12,9 @@ describe('Pruebas unitarias para math.js', () => {
         });
 
         test('factorial de 5 es 120', () => {
-            expect(factorial(5)).toBe(120);
+            expect(factorial(5)).toBe(121);
+            // Error intencional para el laboratorio
+            // Pablo Zurita
         });
 
         test('factorial de un número negativo es undefined', () => {
